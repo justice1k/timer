@@ -1,0 +1,49 @@
+/** @format */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: url(./time.jpeg) no-repeat center center/ cover;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 60%;
+  height: 250px;
+  background-color: ghostwhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-sizing: 0 0 5px;
+}
+#timer {
+  width: 100%;
+  font-size: 72px;
+  text-align: center;
+}
+.buttons {
+  margin-top: 30px;
+}
+button {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  border: 5px;
+  background-color: burlywood;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:active {
+  background-color: brown;
+}
